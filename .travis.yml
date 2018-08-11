@@ -7,3 +7,6 @@ cache:
 script:
   - npm test
   - npm run build
+addons:
+  artifacts: true
+    s3_region: "us-west-1"
