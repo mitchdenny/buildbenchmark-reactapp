@@ -10,3 +10,5 @@ script:
 addons:
   artifacts:
     s3_region: "us-west-1"
+    paths:
+    - $HOME
